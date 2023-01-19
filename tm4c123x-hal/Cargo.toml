@@ -15,24 +15,24 @@ repository = "https://github.com/rust-embedded-community/tm4c-hal/tm4c123x-hal"
 edition = "2018"
 
 [dependencies.cast]
-version = "0.2.2"
+version = "0.3.0"
 default-features = false
 
 [dependencies.cortex-m]
-version = "0.6"
+version = "0.7.7"
 
 [dependencies.embedded-hal]
-version = "0.2.2"
+version = "0.2.7"
 features = ["unproven"]
 
 [dependencies.nb]
-version = "1"
+version = "1.0.0"
 
 [dependencies.tm4c123x]
-version = "0.9"
+version = "0.9.0"
 
 [dependencies.void]
-version = "1.0"
+version = "1.0.2"
 default-features = false
 
 [dependencies.tm4c-hal]
